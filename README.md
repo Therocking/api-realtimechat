@@ -1,6 +1,12 @@
 # Chat en tiempo real
 Aplicación de comunocación en tiempo real.
 
+## Iniciar
+En este código de ejemplo se utiliza la db turso [Documentación de turso](https://docs.turso.tech/). Genera el un token de la db para utilzarla.
+
+1. Ejecutar ```npm i``` para cargar los módulos.
+2. Crear el archivo ```.env``` y colocar las siguientes credenciales para turso: ```DB_URL``` y ```DB_TOKEN```.
+
 ## Objetivo
 Mi objetivo con este proyecto es crear una aplicación utilizando y reforzando los conocimientos que tengo y agregarlo a mi portafolio de proyectos.
 
@@ -12,52 +18,6 @@ Mi objetivo con este proyecto es crear una aplicación utilizando y reforzando l
 - Chat público.
 - Chat privado(chat entre dos personas).
 - Chat grupal.
-
-### Otras implementaciones
-- Mensajes Multimedia:
-Permite a los usuarios compartir imágenes, videos, archivos y otros tipos de contenido multimedia en los chats.
-Emojis y Reacciones:
-
-- Implementa emojis y reacciones para que los usuarios puedan expresar sus emociones de manera rápida y divertida.
-Notificaciones en Tiempo Real:
-
-- Envía notificaciones en tiempo real a los usuarios cuando reciben nuevos mensajes, incluso si no están activos en la aplicación.
-Búsqueda de Mensajes:
-
-- Proporciona una función de búsqueda para que los usuarios puedan encontrar rápidamente mensajes antiguos en sus conversaciones.
-Presencia del Usuario:
-
-- Muestra la presencia en tiempo real de los usuarios (por ejemplo, si están en línea, desconectados o ausentes).
-Chats Grupales:
-
-- Permite la creación de chats grupales donde múltiples usuarios pueden participar y comunicarse.
-Integración con Redes Sociales:
-
-- Ofrece la posibilidad de vincular cuentas de redes sociales para facilitar la conexión con amigos y compartir contenido en otros canales.
-Estadísticas y Analytics:
-
-- Proporciona a los administradores y usuarios estadísticas sobre el uso de la aplicación, como la frecuencia de mensajes, usuarios activos, etc.
-Modo Nocturno/Tema Personalizable:
-
-- Permite a los usuarios personalizar la apariencia de la aplicación con temas oscuros, claros u otras opciones de personalización.
-Banderas y Reportes:
-
-- Implementa un sistema de reportes para que los usuarios puedan señalar mensajes inapropiados o comportamiento indebido.
-Videollamadas y Llamadas de Voz:
-
-- Agrega funciones de llamadas de voz y videollamadas para enriquecer las opciones de comunicación.
-Traducción Automática:
-
-- Facilita la comunicación entre usuarios que hablan diferentes idiomas mediante la implementación de traducción automática.
-Sistema de Puntos o Logros:
-
-- Motiva a los usuarios a participar y ser activos en la plataforma mediante un sistema de puntos o logros.
-Cifrado de Extremo a Extremo:
-
-- Mejora la privacidad y seguridad de las conversaciones mediante la implementación de cifrado de extremo a extremo.
-Sincronización Multiplataforma:
-
-- Permite a los usuarios acceder a sus conversaciones desde múltiples dispositivos y plataformas.
 
 ## Casos de uso 
 - Crear cuenta.
@@ -86,3 +46,41 @@ Sincronización Multiplataforma:
 ### Problema #3: Mensajes duplicados
 
 ### Problema #4: Multiples mesajes al mismo tiempo
+
+### Otras implementaciones
+- Mensajes Multimedia:
+Permite a los usuarios compartir imágenes y otros tipos de contenido multimedia en los chats.
+Emojis y Reacciones:
+
+- Implementa emojis y reacciones para que los usuarios puedan expresar sus emociones de manera rápida y divertida.
+Notificaciones en Tiempo Real:
+
+- Envía notificaciones en tiempo real a los usuarios cuando reciben nuevos mensajes, incluso si no están activos en la aplicación.
+Búsqueda de Mensajes:
+
+- Proporciona una función de búsqueda para que los usuarios puedan encontrar rápidamente mensajes antiguos en sus conversaciones.
+Presencia del Usuario:
+
+- Muestra la presencia en tiempo real de los usuarios (por ejemplo, si están en línea, desconectados o ausentes).
+Chats Grupales:
+
+- Permite la creación de chats grupales donde múltiples usuarios pueden participar y comunicarse.
+Integración con Redes Sociales:
+
+- Ofrece la posibilidad de vincular cuentas de redes sociales para facilitar la conexión con amigos y compartir contenido en otros canales.
+Estadísticas y Analytics:
+
+Modo Nocturno/Tema Personalizable:
+
+- Permite a los usuarios personalizar la apariencia de la aplicación con temas oscuros, claros u otras opciones de personalización.
+Banderas y Reportes:
+
+Traducción Automática:
+
+- Facilita la comunicación entre usuarios que hablan diferentes idiomas mediante la implementación de traducción automática.
+Sistema de Puntos o Logros:
+
+- Motiva a los usuarios a participar y ser activos en la plataforma mediante un sistema de puntos o logros.
+Cifrado de Extremo a Extremo:
+
+- Mejora la privacidad y seguridad de las conversaciones mediante la implementación de cifrado de extremo a extremo.

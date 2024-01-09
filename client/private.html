@@ -104,7 +104,8 @@
      const socket = io("/private",{
       auth: { // Info que se manda el las peticiones del usuario.
 	 serverOffset: 0,
-	 username // Toma el nombre del usuario desde los párametros de la url.
+	 username, // Toma el nombre del usuario desde los párametros de la url.
+	 userId: 1
       }
      })
 
